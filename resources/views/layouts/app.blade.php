@@ -13,10 +13,8 @@
   @include('partials._header')
   @include('partials._navbar')
   @include('partials._jumbotron')
-  <h1>Template title</h1>
-
   <p>
-    @yield('main-content')
+    @yield('main_content')
   </p>
   @include('partials._footer')
 </body>
