@@ -52,9 +52,9 @@
       <img class="" src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
     </div>
     </div>
-    <div class="col-8 d-flex flex-wrap">
-      All site content TM and &copy; 2020 Dc Entertainment, unless otherwise<a href="#"> noted here. All rights reserved. <a href="#">Cookies settings</a> </a> 
-    </div>
+    <small class="col-8 d-flex flex-wrap">
+      All site content TM and &copy; 2020 Dc Entertainment, unless otherwise<a href="#"> noted here.</a> All rights reserved. <a href="#">Cookies settings</a>  
+    </small>
   </div>
   
    

@@ -8,6 +8,11 @@ header {
     background-image: url(../img/jumbotron.jpg);
 }
 
+main {
+    background-color: #1c1c1c;
+    color: #fff;
+}
+
 .thumbs > img {
     max-height: 150px;
 }
@@ -34,4 +39,51 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+}
+
+.thumb-section {
+    // min-height: 45vh;
+    background-color: #fff;
+}
+
+.thumb-bar {
+    height: 10vh;
+    background-color: #0282f9;
+}
+
+.thumb-active {
+    max-height: 250px;
+    position: absolute;
+    bottom: 18rem;
+}
+
+.price-bar {
+    width: 45%;
+    background-color: #55ba59;
+    color: #fff;
+}
+
+.drop-butt {
+    border-left: 1px solid black;
+    color: #fff;
+}
+
+.drop-color {
+    color: #fff;
+}
+
+.adv {
+    max-height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 25rem;
+    bottom: 1rem;
+}
+
+.description {
+    max-width: 36rem;
+}
+
+.debug {
+    border: 2px dashed red;
 }

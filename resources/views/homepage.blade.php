@@ -7,10 +7,11 @@ Homepage
 @section('main_content')
 <section class="container">
   <div class="row row-cols-6">
-    @foreach ($comics as $comic)
+    @foreach ($comics as $key => $comic)
     <div class="thumbs img-fluid d-flex flex-column">
       <img src="{{ $comic['thumb'] }}" alt="">
       <div class="col">{{ strtoupper($comic['series']) }}</div>
+      <a href="{{ route('details',$key) }}" class="btn btn-primary">SHOW DETAILS</a>
     </div>
     @endforeach
     <div class="">

@@ -13,9 +13,10 @@
   @include('_partials._header')
   @include('_partials._navbar')
   @include('_partials._jumbotron')
-  <p>
+  <main>
     @yield('main_content')
-  </p>
+  </main>
+  @yield('thumb_details')
   @include('_partials._footer')
 </body>
 </html>

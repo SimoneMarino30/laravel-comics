@@ -18,3 +18,10 @@ Route::get('/', function () {
     // dd($comics);
     return view('homepage', compact('comics'));
 })->name('homepage');
+
+Route::get('/thumb/{key}', function ($key) {
+    $comics = config('comics_db');
+    // dd($comics);
+    $comic = $comics[$key];
+    return view('thumbDetails', compact('comic'));
+})->name('details');
