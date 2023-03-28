@@ -1,7 +1,11 @@
 @import "~bootstrap/scss/bootstrap";
 
+header {
+    background-color: #0282f9;
+}
 .jumbotron {
-    min-height: 100vh;
+    min-height: 45vh;
+    background-image: url(../img/jumbotron.jpg);
 }
 
 img {
