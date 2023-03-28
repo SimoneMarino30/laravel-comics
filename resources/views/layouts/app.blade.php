@@ -10,12 +10,12 @@
   @vite('resources/js/app.js')
 </head>
 <body>
-  @include('partials._header')
-  @include('partials._navbar')
-  @include('partials._jumbotron')
+  @include('_partials._header')
+  @include('_partials._navbar')
+  @include('_partials._jumbotron')
   <p>
     @yield('main_content')
   </p>
-  @include('partials._footer')
+  @include('_partials._footer')
 </body>
 </html>

@@ -8,6 +8,30 @@ header {
     background-image: url(../img/jumbotron.jpg);
 }
 
-img {
+.thumbs > img {
     max-height: 150px;
+}
+
+.middle-bar {
+    min-height: 20vh;
+    background-color: #0282f9;
+}
+
+.img-box {
+    width: calc(100% / 5);
+
+    // align-items: center;
+}
+
+.img-box > img {
+    max-height: 7.5vh;
+
+    // align-items: center;
+}
+
+footer {
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
